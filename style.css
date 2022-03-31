@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+}
+.nav-container{
+    margin: 20px;
+    border: 3px dotted;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 203);
+}
+
+/*FIRST BOX*/
+.box1{
+    border: 3px dashed blue;
+    margin: 10px;
+    padding: 5px;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(186, 186, 224);
+}
+.box1 div {
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(245, 245, 220);
+}
+
+/*SECOND BOX*/
+.box2{
+    border: 3px dashed red;
+    margin: 10px;
+    padding: 5px;
+    height: 30%;
+    display: flex;
+    background-color: rgb(253, 165, 133);
+}
+.mbox4 {
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(245, 245, 220);
+}
+.mbox5 {
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-direction: column;
+}
+.mmbox1{
+    border: 2px dotted;
+    margin: 5px;
+    height: 100%;
+    background-color: rgb(232, 215, 184);
+}
+.mmbox2{
+    border: 2px dotted;
+    margin: 5px;
+    height: 100%;
+    background-color: rgb(232, 215, 184);
+}
+
+/*THIRD BOX*/
+.box3{
+    border: 3px dashed;
+    margin: 10px;
+    padding: 5px;
+    height: 30%;
+    display: flex;
+    background-color:lightgreen;
+}
+.mbox6{
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(171, 235, 238);
+}
+.mbox7{
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(171, 235, 238);
+    display: flex;
+}
+.mmbox3{
+    border: 2px dashed;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(200, 193, 180);
+}
+.mmbox4{
+    border: 2px dashed;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(200, 193, 180);
+}
+.mbox8{
+    border: 3px solid;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    background-color: rgb(171, 235, 238);
+}
+#link{
+    text-decoration: none;
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+    p {
+        color: aliceblue;
+    }
+    h4 {
+        color: aliceblue;
+    }
+    #link{
+        text-decoration: none;
+        color: rgb(79, 173, 255);
+    }
+}
